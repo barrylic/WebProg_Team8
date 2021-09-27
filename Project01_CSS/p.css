@@ -1,4 +1,5 @@
 
+/* main div */
 .main{
     width: 90%;
     height: 40%;
@@ -6,10 +7,12 @@
     display: flex;
     justify-content:space-evenly;
 }
+/* bord class */
 .bord{
     border: 2px solid lightblue;
     border-radius: 10px;
 }
+/* title yu gi oh! duel links is a picture also link */
 #top{
     width: 50%;
     height: 10em;
@@ -22,6 +25,7 @@ a{
 a:hover{
     color: gold;
 }
+/* contain */
 #one{
 width:13%;
 height:10cm;
@@ -47,6 +51,8 @@ width: 13%;
     height:10cm;
     width: 13%;
 }
+/* contain */
+/* background image */
 .bg{
     padding: 0;
     margin: 0;
@@ -56,9 +62,11 @@ width: 13%;
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* link image pseudo-class with hover */
 a img:hover {
     border:   solid 1pt lightblue;
 }
+/* card flip code */
 .oo,.tt{
     position: absolute;
     left: 0;
@@ -85,6 +93,8 @@ transform: rotateY(180deg);
 #bone:hover .tt{
     transform: rotateY(180deg);
 }
+/* card filp code */
+/* bottom main box here */
 .bottom{
     width: 90%;
     height: 40%;
@@ -204,6 +214,7 @@ transform: rotateY(180deg);
 #bfive:hover .spellt2{
     transform: rotateY(180deg);
 }
+/* in the first row 4 col, monster  */
 .monster{
     position: absolute;
     left: 0;
@@ -215,6 +226,7 @@ transform: rotateY(180deg);
     background-size: contain;
     background-position: center;
 }
+/* forst ror 6 col field spellcard */
 .field{
     width: 100%;
     height: 100%;
@@ -223,6 +235,7 @@ transform: rotateY(180deg);
     background-size: contain;
     background-position: center;
 }
+/* this is rocket animation  */
 .left{
     position: absolute;
     top: 1000px;
@@ -232,6 +245,7 @@ transform: rotateY(180deg);
     background: url(./22333.png) 0 0 no-repeat;
     animation: ersan 0.4s steps(1) infinite;
 }
+/* this is rocket frame  */
 @keyframes ersan {
     0%{background-position-x: 0;}
    25%{
@@ -248,6 +262,7 @@ transform: rotateY(180deg);
     }
     
 }
+/* this is row 2 6 col deckpicture */
 .deck{
     position: absolute;
     width: 100%;
@@ -255,7 +270,7 @@ transform: rotateY(180deg);
     background: url(./deck1.PNG) no-repeat center ;
     background-size: contain;
 }
-
+/* top right player picture */
 .right{
     position: absolute;
     top: 10px;
@@ -265,6 +280,7 @@ transform: rotateY(180deg);
     background: url(./kaima.PNG) no-repeat center;
     background-size: contain;
 }
+/* top left link(link to second player) */
 .player2{
     position: absolute;
     top: 10px;
@@ -272,6 +288,7 @@ transform: rotateY(180deg);
     width: 20%;
     height: 20%;
 }
+/* summary link */
 .summary {
     position: absolute;
     top: 1100px;
