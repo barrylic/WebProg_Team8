@@ -1,0 +1,286 @@
+
+.main{
+    width: 90%;
+    height: 40%;
+    margin: 50px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.bord{
+    border: 2px solid lightblue;
+    border-radius: 10px;
+}
+#top{
+    width: 50%;
+    height: 10em;
+    text-align: center;
+    margin: 0 auto;
+}
+a{
+    color:lightcyan;
+}
+a:hover{
+    color: gold;
+}
+#one{
+width:13%;
+height:10cm;
+}
+#two{
+width: 13%;
+height:10cm;
+}
+#three{
+height:10cm;
+width: 13%;
+}
+#four{
+    height:10cm;
+    width: 13%;
+    position: relative;
+}
+#five{
+    height:10cm;
+    width: 13%;
+}
+#six{
+    height:10cm;
+    width: 13%;
+}
+.bg{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./card.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a img:hover {
+    border:   solid 1pt lightblue;
+}
+.oo,.tt{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./trap.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform 1s;
+    background-position: center;
+    backface-visibility: hidden;
+}
+.oo{
+transform: rotateY(180deg);
+}
+.tt{
+    background-image: url(./back.jpg);
+    
+}
+#bone:hover .oo{
+    transform: rotateY(0deg);
+}
+#bone:hover .tt{
+    transform: rotateY(180deg);
+}
+.bottom{
+    width: 90%;
+    height: 40%;
+    margin: 50px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#bone{
+    width:13%;
+    height:10cm;
+    position: relative;
+    }
+#btwo{
+width: 13%;
+height:10cm;
+position: relative;
+
+}
+#bthree{
+width: 13%;
+height:10cm;
+position: relative;
+
+}
+#bfour{
+width: 13%;
+height:10cm;
+}
+#bfive{
+width: 13%;
+height:10cm;
+position: relative;
+}
+#bsix{
+width: 17%;
+height:10cm;
+position: relative;
+
+}
+.oo2,.tt2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./trap2_.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform 1s;
+    background-position: center;
+    backface-visibility: hidden;
+}
+.oo2{
+transform: rotateY(180deg);
+}
+.tt2{
+    background-image: url(./back.jpg);
+    
+}
+#btwo:hover .oo2{
+    transform: rotateY(0deg);
+}
+#btwo:hover .tt2{
+    transform: rotateY(180deg);
+}
+.spello,.spellt{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./spells.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform 1s;
+    background-position: center;
+    backface-visibility: hidden;
+}
+.spello{
+transform: rotateY(180deg);
+}
+.spellt{
+    background-image: url(./back.jpg);
+    
+}
+#bthree:hover .spello{
+    transform: rotateY(0deg);
+}
+#bthree:hover .spellt{
+    transform: rotateY(180deg);
+}
+
+.spello2,.spellt2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./spell2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform 1s;
+    background-position: center;
+    backface-visibility: hidden;
+}
+.spello2{
+transform: rotateY(180deg);
+}
+.spellt2{
+    background-image: url(./back.jpg);
+    
+}
+#bfive:hover .spello2{
+    transform: rotateY(0deg);
+}
+#bfive:hover .spellt2{
+    transform: rotateY(180deg);
+}
+.monster{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./monster.jpg) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.field{
+    width: 100%;
+    height: 100%;
+    background-image: url(./field\ spell.png) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.left{
+    position: absolute;
+    top: 1000px;
+    left: 40px;
+    width: 150px;
+    height: 175px;
+    background: url(./22333.png) 0 0 no-repeat;
+    animation: ersan 0.4s steps(1) infinite;
+}
+@keyframes ersan {
+    0%{background-position-x: 0;}
+   25%{
+       background-position-x:-150px;
+   }
+   50%{
+    background-position-x:-300px;
+}
+75%{
+    background-position-x:-450px;
+}
+100%{
+        background-position: -600px;
+    }
+    
+}
+.deck{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(./deck1.PNG) no-repeat center ;
+    background-size: contain;
+}
+
+.right{
+    position: absolute;
+    top: 10px;
+    left: 70%;
+    width: 20%;
+    height: 175px;
+    background: url(./kaima.PNG) no-repeat center;
+    background-size: contain;
+}
+.player2{
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    width: 20%;
+    height: 20%;
+}
+.summary {
+    position: absolute;
+    top: 1100px;
+    left: 80%;
+    width: 10%;
+    height: 50px;
+    border: 2px lightblue solid;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30pt;
+    text-align: center;
+}

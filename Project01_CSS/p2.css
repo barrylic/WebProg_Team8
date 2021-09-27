@@ -1,0 +1,268 @@
+
+.main{
+    width: 90%;
+    height: 40%;
+    margin: 50px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.bord{
+    border: 2px solid lightblue;
+    border-radius: 10px;
+}
+#top{
+    width: 50%;
+    height: 10em;
+    text-align: center;
+    margin: 0 auto;
+}
+#one{
+width:13%;
+height:10cm;
+position: relative;
+
+}
+#two{
+width: 13%;
+height:10cm;
+position: relative;
+
+}
+#three{
+height:10cm;
+width: 13%;
+position: relative;
+
+}
+#four{
+    height:10cm;
+    width: 13%;
+    position: relative;
+}
+#five{
+    height:10cm;
+    width: 13%;
+}
+#six{
+    height:10cm;
+    width: 13%;
+}
+.bg{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a img:hover {
+    border:   solid 1pt lightblue;
+}
+.oo,.tt{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./mind.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform 1s;
+    background-position: center;
+    backface-visibility: hidden;
+}
+.oo{
+transform: rotateY(180deg);
+}
+.tt{
+    background-image: url(./back.jpg);
+    
+}
+#bone:hover .oo{
+    transform: rotateY(0deg);
+}
+#bone:hover .tt{
+    transform: rotateY(180deg);
+}
+.bottom{
+    width: 90%;
+    height: 40%;
+    margin: 50px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#bone{
+    width:13%;
+    height:10cm;
+    position: relative;
+    }
+#btwo{
+width: 13%;
+height:10cm;
+position: relative;
+
+}
+#bthree{
+width: 13%;
+height:10cm;
+position: relative;
+
+}
+#bfour{
+width: 13%;
+height:10cm;
+position: relative;
+}
+#bfive{
+width: 13%;
+height:10cm;
+position: relative;
+}
+#bsix{
+width: 17%;
+height:10cm;
+position: relative;
+
+}
+.oo2,.tt2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./hole.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform 1s;
+    background-position: center;
+    backface-visibility: hidden;
+}
+.oo2{
+transform: rotateY(180deg);
+}
+.tt2{
+    background-image: url(./back.jpg);
+    
+}
+#btwo:hover .oo2{
+    transform: rotateY(0deg);
+}
+#btwo:hover .tt2{
+    transform: rotateY(180deg);
+}
+.spello,.spellt{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./unity.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform 1s;
+    background-position: center;
+    backface-visibility: hidden;
+}
+.spello{
+transform: rotateY(180deg);
+}
+.spellt{
+    background-image: url(./back.jpg);
+    
+}
+#bthree:hover .spello{
+    transform: rotateY(0deg);
+}
+#bthree:hover .spellt{
+    transform: rotateY(180deg);
+}
+
+.monster{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./god1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.monster2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./god2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.monster3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./god3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.left{
+    position: absolute;
+    top: 1000px;
+    left: 40px;
+    width: 150px;
+    height: 175px;
+    background: url(./22333.png) 0 0 no-repeat;
+    animation: ersan 0.4s steps(1) infinite;
+}
+@keyframes ersan {
+    0%{background-position-x: 0;}
+   25%{
+       background-position-x:-150px;
+   }
+   50%{
+    background-position-x:-300px;
+}
+75%{
+    background-position-x:-450px;
+}
+100%{
+        background-position: -600px;
+    }
+    
+}
+.deck{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(./card2.PNG) no-repeat center ;
+    background-size: contain;
+}
+
+.right{
+    position: absolute;
+    top: 10px;
+    left: 70%;
+    width: 20%;
+    height: 175px;
+    background: url(./yugi.PNG) no-repeat center;
+    background-size: contain;
+}
+.swords1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./Swords1.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
