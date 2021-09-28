@@ -285,7 +285,7 @@ transform: rotateY(180deg);
     position: absolute;
     top: 10px;
     left: 10%;
-    width: 20%;
+    width: 5%;
     height: 20%;
 }
 /* summary link */
@@ -305,6 +305,7 @@ transform: rotateY(180deg);
     position: absolute;
     top: 80px;
     left: 17%;
-    width: 20%;
-    height: 20%;
+    width:15%;
+    height: 10%;
+    
 }
