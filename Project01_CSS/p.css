@@ -301,3 +301,10 @@ transform: rotateY(180deg);
     font-size:30pt;
     text-align: center;
 }
+.music{
+    position: absolute;
+    top: 80px;
+    left: 17%;
+    width: 20%;
+    height: 20%;
+}
