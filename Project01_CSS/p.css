@@ -244,6 +244,7 @@ transform: rotateY(180deg);
     height: 175px;
     background: url(./22333.png) 0 0 no-repeat;
     animation: ersan 0.4s steps(1) infinite;
+
 }
 /* this is rocket frame  */
 @keyframes ersan {
@@ -291,7 +292,7 @@ transform: rotateY(180deg);
 /* summary link */
 .summary {
     position: absolute;
-    top: 1100px;
+    top: 1050px;
     left: 80%;
     width: 10%;
     height: 50px;
